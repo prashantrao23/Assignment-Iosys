@@ -181,10 +181,19 @@
     
 }
 
-.slick-center blockquote::before{
+.slick-center .testimony-text blockquote::before{
     background-image: url(https://cdn2.hubspot.net/hubfs/4196930/Assets%202018/active-quotes.png);
     background-repeat: no-repeat;
-    top: 6px;
+    top: 12px;
+}
+.facts blockquote::before {
+    position: absolute;
+    content: '';
+    background-image: url(https://cdn2.hubspot.net/hubfs/4196930/Assets%202018/quotes.svg);
+    width: 29px;
+    height: 23px;
+    left: 18px;
+    top: -11px;
 }
 
 .slick-center .testimonial .below-quote-mod {
